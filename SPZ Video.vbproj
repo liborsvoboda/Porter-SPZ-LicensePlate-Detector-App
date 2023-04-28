@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <MyType>WindowsForms</MyType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FB6904BB-A98D-4ED6-8A77-1C51AC67EA6A}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <AssemblyName>BRANA_EV</AssemblyName>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>BRANA_EV.My.MyApplication</StartupObject>
+    <AssemblyMajorVersion>1</AssemblyMajorVersion>
+    <AssemblyMinorVersion>0</AssemblyMinorVersion>
+    <AssemblyRevisionNumber>0</AssemblyRevisionNumber>
+    <GenerateRevisionNumber>False</GenerateRevisionNumber>
+    <AssemblyCompanyName>DTK Software</AssemblyCompanyName>
+    <RootNamespace>BRANA_EV</RootNamespace>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <TargetFrameworkVersion>v3.0</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>.\bin\</OutputPath>
+    <DocumentationFile>BRANA_EV.xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DefineDebug>True</DefineDebug>
+    <DefineTrace>True</DefineTrace>
+    <DefineConstants>Win32=True</DefineConstants>
+    <PlatformTarget>x86</PlatformTarget>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>.\bin\</OutputPath>
+    <DocumentationFile>BRANA_EV.xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DefineDebug>False</DefineDebug>
+    <DefineTrace>True</DefineTrace>
+    <DefineConstants>Win32=True</DefineConstants>
+    <PlatformTarget>x86</PlatformTarget>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>Win32=True</DefineConstants>
+    <DocumentationFile>BRANA_EV.xml</DocumentationFile>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>Win32=True</DefineConstants>
+    <DocumentationFile>BRANA_EV.xml</DocumentationFile>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>
+    </DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>SPZ.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AxInterop.DTKANPRLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x86\Debug\AxInterop.DTKANPRLib.dll</HintPath>
+    </Reference>
+    <Reference Include="AxInterop.DTKVideoCapLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\x86\Debug\AxInterop.DTKVideoCapLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.DTKANPRLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\x86\Debug\Interop.DTKANPRLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.DTKVideoCapLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\x86\Debug\Interop.DTKVideoCapLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.XML">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="Microsoft.VisualBasic.Compatibility" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Arriving_Vehicles_DataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Arriving_Vehicles_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Arriving_Vehicles_DataSet.vb">
+      <DependentUpon>Arriving_Vehicles_DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="AssemblyInfo.vb" />
+    <Compile Include="Form_logon.Designer.vb">
+      <DependentUpon>Form_logon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_logon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_help.Designer.vb">
+      <DependentUpon>Form_help.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_help.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_record_note.Designer.vb">
+      <DependentUpon>Form_record_note.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_record_note.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_picture_preview.Designer.vb">
+      <DependentUpon>Form_picture_preview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_picture_preview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_gate_history.Designer.vb">
+      <DependentUpon>Form_gate_history.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_gate_history.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_config.Designer.vb">
+      <DependentUpon>Form_config.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_config.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_about.Designer.vb">
+      <DependentUpon>Form_about.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_about.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_dial_carrier.Designer.vb">
+      <DependentUpon>Form_dial_carrier.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_dial_carrier.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Function_SQL.vb" />
+    <Compile Include="Functions.vb" />
+    <Compile Include="Main_form.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>Main_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Main_form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form_help.resx">
+      <DependentUpon>Form_help.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_logon.resx">
+      <DependentUpon>Form_logon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_record_note.resx">
+      <DependentUpon>Form_record_note.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_picture_preview.resx">
+      <DependentUpon>Form_picture_preview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_gate_history.resx">
+      <DependentUpon>Form_gate_history.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_config.resx">
+      <DependentUpon>Form_config.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_about.resx">
+      <DependentUpon>Form_about.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_dial_carrier.resx">
+      <DependentUpon>Form_dial_carrier.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_form.resX">
+      <DependentUpon>Main_form.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\No_Cover_.jpg" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="SPZ.ico" />
+    <None Include="SPZ.jpg" />
+    <Content Include="tvd.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Arriving_Vehicles_DataSet.xsc">
+      <DependentUpon>Arriving_Vehicles_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Arriving_Vehicles_DataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Arriving_Vehicles_DataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Arriving_Vehicles_DataSet.xss">
+      <DependentUpon>Arriving_Vehicles_DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Settings.settings">
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>True</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <Private>True</Private>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

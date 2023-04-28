@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="PictureBox2.InitialImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAANoAAAC9CAIAAABajvRuAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADrwAAA68AZW8ckkAABD7SURBVHhe7ZsNcFXVtcdvcTqvrbTxg6pA/Xow4wztFIfW
+        oa9VeNbaGaai0KeUtlpQE60gEuQZ5IEG6gegAkGRCCogBBNrY6AGQaQCBYS+WgItnVTLa9AHIjg8IPLx
+        gEC69lkrm+0+557chHvv3vfy/81/7qy9zt6Hk3t+nHNuLiSaAfAG6Ag8AjoCj4COwCOgI/AI6Ag8AjoC
+        j4COwCOgI/AI6Ag8AjoCj4COwCOgI/AI6Ag8AjoCj4COwCOgI/AI6Ag8AjoCj4COwCOgI/AI6Ag8AjoC
+        j4COwCOgI/AI6Ag8AjoCj4COwCOgI/AI6Ag8AjoCj4COwCOgI/AI6Ag8AjoCj4COwCOgI/AI6Ag8AjoC
+        j4COwCOgI/CIPNRxAvAeOVUh8lPHE8Bjzjgdm5qajrdwrIWjLfx/C0eOHDkccCjg4MGDnwY0NjYeCJD3
+        D6QV6KgQGaGja6CjQmSEjq6BjgqRETq6BjoqREbo6BroqBAZoaNroKNCZEy3jolEQqoAa5gKtIRXtWNt
+        LgIdFSJjJnVsh09niIIm0FEhMmZMx/aJBR1NoGN6dAxbRR1GxsZM3eSa4SH3CW4yusMFYTX1KxNsEaT1
+        2bXmMPtAR4XImAEdw2fX7Og6mHiqtgqifU2zz5hbudDEbMoa0FEhMmbl6mgOIw3IRJOgIaOHXGh4KyOt
+        rAMdFSJjVp4dI+vsN82tTLiTfaCjQmTMmI5EpAen06QixSYRbppbmXAn+0BHhciYSR0JUwWGh0RkHTOB
+        h/FNXTDBdoWMU+tkGeioEBnTrWOmcehNhoCOCpEROroGOipExlzQMbiXCtLKI6CjQmTMtatj/gEdFSIj
+        dHQNdFSIjNDRNdBRITJCR9dAR4XICB1dAx0VIiN0dA10VIiM0NE10FEhMkJH10BHhcgIHV0DHRUiI3R0
+        DXRUiIzp1jH8PZ7upOUrvvz7nhA6KkTGLOqYjPwzrE1AR4XICB1dAx0VIqOjmzXVPOSCMTcRPCS4Nl8Z
+        NckY5ijQUSEyZkDHMHqTVTDmMLKmwqyTFTkKdFSIjO6ujlKlUCdrariTo0BHhcjoSEcish9Zt9rMaaCj
+        QmSEjq6BjgqR0YWOVOiaMTtcEzwkYmpGxrkJdFSIjOnWEbQV6KgQGaGja6CjQmSEjq6BjgqRETq6Bjoq
+        REbo6BroqBAZoaNroKNCZISOroGOCpEROroGOipERujoGuioEBmho2ugo0JkhI6ugY4KkRE6ugY6KkRG
+        6Oga6KgQGTOjo/xLmyT/1ka2BUjrDAY6KkTGDOhoShYpXKsTziigo0JkTLeOYb3iO9AROipERm905MIc
+        MjxkpBWgO+YrE2xRcG02zZpIVmcT6KgQGX3S0ay5IFptmn0mcqtVWwVh1tkEOipERkc6aqSV3Axdt9ok
+        aMjoIRdEZJ1sQjaBjgqR0fXVUZPMDF23oxm5lWh1QjaBjgqRMd06Eq2e41abkbVZhJtEuBm5lYicqess
+        Ax0VImMGdCT47BIy/iyRfasZrFbIOEB3dF8XTLBdoYdcEDE1D81mNoGOCpExMzpmGlfqZALoqBAZoaNr
+        oKNCZMwdHdU9tQVp5QXQUSEy5ubVMZ+AjgqRETq6BjoqREbo6BroqBAZoaNroKNCZISOroGOCpEROroG
+        OipERujoGuioEBmho2ugo0JkhI6ugY4KkRE6ugY6KkTGdOsY/hIvfng68K4id5jGPyXTQEeFyJhdHa1N
+        p0+yHab9D8oc0FEhMmZAR/3KODEDOnqKPzpSwfCQ4NpqEtwh9JALxuyHN2msDg89BDoqRMbM6BhZaMxN
+        Zm0VBNdmh7Ca4YKwlhDhjidAR4XImDEdCa6tDqOHXBApNs1CoztcEFbNyNgzoKNCZMyijjEFkWIzchqT
+        4kLfgI4KkTGTOhI01J2YgohvElQn28ToTjDxVG0VvgEdFSJjFnUkeEhYQ4I7jLRid0Vwh5CxMSfcJGTs
+        GdBRITKmW8c24a0i2QQ6KkRG6Oga6KgQGaGja6CjQmR0qiMgoKNCZISOroGOCpEROroGOipERujoGuio
+        EBmho2ugo0JkhI6ugY4KkRE6ugY6KkRG6Oga6KgQGaGja6CjQmSEjq6BjgqRMd06Wt/74WvAVoGOCpEx
+        kzrCxVSAjgqRMWM6wsUUgY4KkTEzOoZdpA4jY2Om2SSSdQgZ5xfQUSEyZkDHsDdmR9fBxFN1q0W+Ah0V
+        ImNWro7mMNIzs6nRHS7yFeioEBmz8uwYWbfaZMKdPAM6KkTGjOlIREqWepMJd/IM6KgQGTOpI2F6xvCQ
+        iKkZGUd18gnoqBAZ060jaCvQUSEyQkfXxOl40kCmB9AZ5ZMqJ7PldMrAY6Cj59AJEuFCJPr9pCjPAh09
+        h06Qdcp0Elt3n8yzQEfPoRO0dfeJIPa5S1Ru2PXyOzsXrd9RsfbDBWu2v7T6H/Pe3jZ35fsvvvXeCyvq
+        5yz/65xlW59b+ufy2i2zXq979rebZi5+95maPz792h9mVG8s+82Gslffmf7r9dNeWTe1aq0ngY6eQyfI
+        OmU60BE6ZpszTkf5uYGXuNSxes3WH98xKrLIUOinBZ5jnTKdjOtI5vXo9d3IAkGs5OHNGsndQEfEo+Th
+        syOSu8GzI+JR8v9mPX7mb4Y9/PTQ0Y+llkcpwx6eMX7mq9Z+kCwkz3UsmVpx4MCBpqYm+RcjbaFk6kJr
+        b0im4/Wzo3gREG7qTkwKH3ySdezQYWsicZIj65NTV1dHr4UPPmHtjVI45okf3nw7vVp95+EDM1M4Zkph
+        yRRVlEyxJmctk196i25N9Gr1k8XfZ0cSIjw0m9aEyND9l3UkC3t/a0OXzh+loiNDd21rbxQ6u7RJn3LO
+        LXeV0Js+KeU3Pb3RIvJhE916XEmvva6+npv0ai1pNaXlN81bNnT+quKaVaVU0NCakErIQvqb8FLVa6n/
+        ffD3Zk3vo9WhRDZjYurI6dDhKO0kkoaGhsbGRhm0piPPoT0fPnz4T5v/8vyCV5xcMtlFPhhN37596ZWk
+        JCOpaJOOxdP/ff7ykXX1NQ27Vjfsqtv+cR290pCatMmaHBPtYpsO4IzTkbJu3bpEIlFfX9+5c2cqaJ99
+        +vTZv38/FSap60h/xN69e6l5xwOTH3q22lrSap6oWEUfnm669Z7v3zDo+gE/v6Xw/tFTXrTmJIs+Hg75
+        Rxby1ZGk5II30b3bWhsOCTdv8ZBVdWWbt6/at69h334JDalJm0ZO6GstiYzpIh+ANSFZ/H12pB/D6nD4
+        JySsfmR+du9DYR1pLVuo/nNUIvHBBx8E+xM++ugjLmittTcKvbO0iV8JS8fXl799//jHqaD86Kd33z1u
+        mrXcCol4852jLr70cvqL0a9fv7vuumvo0KHXXHPN+eef36Pnt0dMmGnND8c6ntLSUi7C0BxrbTjFk5WO
+        NatLV2+et7lhMVnIoSHduKfPv4kmWEuskPT842sXiVT+aE7OPDuG0+oEys2F/6l1rK4+MHv2EUvHmpoa
+        rjXaTlpr7Y3CJ55fCUvHo0dPPQkcPHio36A7reVmfvV87Td6fad79+6zZ8+mPcydO/eGG24YPHjw+vXr
+        6RhGjRrVqVOnm24dZq2yYh1PbW0tXRRJSgu6TLb6AEdXPnpGJOfISArdnc1QhzbRhPgLJB/JhM/+bxhq
+        WtOSJcdu1mZanUDpf+sw4+rYdOON+6jo3bu31lG/MqZPtNbaG8U6/TE6vla7oujBJ63lOnRdpOvfdddd
+        t3v3bppcXl7es2fPysrKGTNmXHLJJVu2bKHmsmXLunbtOuC24dZaM9bxECSfVAY0wVoYDt2pJ9AnGO3i
+        qmIz3KcJ8U+QfCRhHWeX1yyc9OKSf+3+3336UEFDayEnZ3Tkodm0JkTmBwN/wTqeddbHOrQwFWittTeK
+        dfqT6fi/O3f9eMjwR56vtZbrFD86+7zzztu2bRvPv/rqq9944w2uS0pKxo0bx/XSpUvpxv3AE/Ot5TrW
+        8RDt1pFUK6sZoFwM/KNbthk2kibQNGuhGT4SS8dJvfu+3+srxzudd7Kg4OQXv3Di82et/1rnpSNKrbUU
+        f58dKfLTBISbuhOTXt+7nnWUNW2h1/d+YO2Nok//fz067c77xlJBueX2EU/NfIEK0vHY8ePLVv5+0B33
+        jXz0OWutmSdfXtPtiq8XFxfzn3XttddWV1dzPWLEiIkTJ3JdUVFx4UWdY7TWx8PzialTp9KPLIOAT/b+
+        34233WstDIcvjaTd4g0TFm+YTp9dzFCHjWyzjjt3vvetggNnn914zjnHN21qpo+MixY1X3zx//T8cvga
+        6e+zY1qir47y1rR8fKGioKCAh2bTJP7qOHZG1SMvLOXm5AUrRz425/Z7xwwvmTC4sJg+X5cmuRmZKX5s
+        zgUXXDhlypSTJ09WVVXRQySZNGbMmMsuu4yvmsuXL+/SpcugoohHWJ2wjmvWrFm4cOHu3Xt4uHff/rGP
+        PDW89BlrYTjkGd+j2T/6+GKGOnyNbLOOmzY1dr/wkwED9n3uc3u6d2/asUM1a2uPXPCVhZPtXyD4e7NO
+        S/SzY/DGKEi7Dh06dOzYcfz48TwcOHAgF8H2U8Q/O1p9CtlZWr64Tb8M/+W4aXTxGzRoUH19/Ztvvkmf
+        rEePHv23gOHDhwcfZe6xllgJ60isXr363E4XBZ9h1IeYYQ8/ba2KDN+p6dLI/p36ZN2wuK6+hjp0geT7
+        tbXQTISOjz9+tEun5j17dkyc+AkZ2aNH0x71V+VE167rfnq3tTzPddSfrPmdYdSVMGDOnDn8O8glS5as
+        XLlSNrcQ/8na6rc7Y8sqe/3btfQcSZ+Ii4qKhgwZctVVV9Hwm9/+7n2/mmVNDidSR4J/40i06VDpykeX
+        QDKP/CMRG3ap34FTqKYObYq/NFL0V0QVry7hAyAdD59/dvOnn1L54QMP7CUjr7zyxP79TRd/zYGOp/Ps
+        ePrRv3fkd4Yg+TZu3EgF3RZ5qAm2nyL+945W/zRT8tSC/7h95Pf7/+SHA28dfHfJ2OmLrAnJoo8nOORT
+        tE9HulmTcHSBpCsii7j9482sI10a+W5uLYnMpJdWFJZMESPfeWdv539pLisLDqd5+z33kJG7rriiseDz
+        lY+UWwvz/Nlx6OjHGhsbT5w4we9Fm4j/Vsbqu4o+Hivt05FSs6pUfWHd8t0MhQoaUpM2WZNjMml+i5E7
+        d/7tqoLm/v2bZ81qDn7z0NC378ZEYsvlX3TwUcZtSMdDhw7lsY6R31kTlZWV6zb+qe6vf7/tvqT/bS8m
+        fJkcOaEvJfWLohVt5MQhI3930UU7OnZsOufLx75asOtLX1p+7rnhzzGUPNexaOxTx44do4+u3bp1K0yZ
+        Sy+9lM5o0diIX2Lz6XfyryWSRT+umfnOdf0ralasfHcbfX635mczZOSwh2Y8Pn/Fc+U1ZUX3P3P55RQq
+        nP0a3O2z45hpi+jSSDryNaNNjJlWYe0NyXTy/NmRUjK1ovDBJ+munXpoPq2y9oNkIXl+s0ZyK9AR8Sh5
+        /uyI5Fby/9kRyaHgZo14FNHx5fU7Fq39cOGa7QtW/2P+29vmrXx/7lvvvbii/vlAx9lL//xc7Zby1+tm
+        /XbTs4vfnVnzx2de+8PT1RtnBDqW/Xr99FfWTata62Gsn5ZiTYiJtZBiTYiJtTAca74Za2ayWKt0rGkp
+        pt0LKeaf3u798NpE1YZdlfmr42km/H6lHnOtFWtmONZ8K9bkyFhLYmItpFgT4mOt5VhzUgkvhI4ZT+T7
+        nkqshRxrTkyshclireJYc2JiLeRYc1qNXggdvU6y05ZirOXhWPPNWDMjYy0xY82Mj6yqWvtPGTVPrHf+
+        ay0AAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="Label59.Text" xml:space="preserve">
+    <value>17) přehled "VOZIDLA V AREÁLU" -  je přehledové okno vozidel v areálu. Přehled je možné řadit dle každého sloupce kliknutím na záhlaví daného sloupce. Zelené záznamy indikuje, že je na záznamu pořízena poznámka. Okno poznámky jle otevřít stiskem klávesy "ENTER" na označeném záznamu. Snímek záznamu lze zobrazit stisknutím klávesy "F1" na označeném záznamu. "DVOJKLIK"em na označeném záznamu se záznam vybere jako vozidlo pro odjezd </value>
+  </data>
+  <data name="Label52.Text" xml:space="preserve">
+    <value>10) nepovinné pole JMÉNO - zde se zadává jednoduchá informace "PŘÍJMENÍ JMÉNO" řidiče vozidla. Ze zadaných záznamu je automaticky tvořen číselník, který následně napovídá o jaké jméno by se mohlo jednat</value>
+  </data>
+  <data name="Label51.Text" xml:space="preserve">
+    <value>9) povinné pole PŘEPRAVCE - Zde se vybírá Firma z existujícího číselníku firem. V seznamu se automaticky vyhledává prvním písmenem. Pro přidání Nové firmy Je nutné přes tlačítko + přidat novou firmu a ULOŽIT. Při zavření je označená firma automaticky přenesena do pořizovaného záznamu o průjezdu vozidla</value>
+  </data>
+  <data name="Label50.Text" xml:space="preserve">
+    <value>8) nepovinné pole ČÍSLO DOD.L - zde je automaticky přepnuta klávesnice na ENG, a záznam pořizovaný pomocí čtečky BARCODE (vstupuje ENTER po pořízení informace), je doplněna čárka, Omezení je 1024 Znaků</value>
+  </data>
+  <data name="Label49.Text" xml:space="preserve">
+    <value>7) povinné pole SPZ VOZIDLA. Zde se zapisuje pořízené SPZ vozidla. Buď jej doplní program sám ze záznamu kamery, nebo uživatel výběrem z okna SPZ DETEKTOR (dvojklikem na daný záznam), nebo je možné jej vyplnit ručně. K tomuto poli se vytváří automaticky číselník, který uživateli při ručním zápisu SPZ napovídá o jaké SPZ  by se mohlo jednat. Max 20 Znaků</value>
+  </data>
+  <data name="Label43.Text" xml:space="preserve">
+    <value>1) SPZ Detektor: Do tohoto okna jsou sejmuty Všechny SPZ které byly pořízeny z kamery a nebylo možné je ihned zpracovat. Pokud vstupní pole SPZ VOZIDLA má nějakou hodtotu všechny pořízené záznamy během této doby jsou zapsány do okna SPZ DETEKTOR. Pokud je vtupní pole SPZ VOZIDLA Volné, zapíše se první pořízené SPZ do tohoto pole a všechna následná jsou pořízena do okna SPZ DETEKTOR. Pro pořízení záznamu o vozidle v okně SPZ DETEKTOR stačí dvojklik a Dané SPZ se přesune do Formuláře POŘÍZENÍ ZÁZNAMU. K danému záznamu se automaticky doplní čas a datum záznamu, firma - pokud k dané SPZ existuje a snímek - který je možné aktulaizovat kliknutím na tlačítko SNÍMEK</value>
+  </data>
+  <data name="Label31.Text" xml:space="preserve">
+    <value>2) Textové Filtry: Slouží k zafiltrování pořízených záznamů dle filtru daného sloupce. Filtruje se metodou OBSAHUJE, tudíž je možné zafiltrovat data obsahující ZNAK ČI ŘETĚZEC ZNAKŮ kdekoliv ve sloupci daného záznamu</value>
+  </data>
+  <data name="Label33.Text" xml:space="preserve">
+    <value>3) Filtr Datumu(Datumový Filtr): Zafiltruje záznamy pořízené ve vybraný den v kalendáři. Defaultně je zobrazen aktuální Datum, při kterém jsou zobrazeny všechny pořízené záznamy. Při zafiltrování jiného historického datumu se zobrazí pouze záznamy pořízené k vybranému datu (jedná se jak o čas příjezdu, tak o čas odjezdu)</value>
+  </data>
+  <data name="Label29.Text" xml:space="preserve">
+    <value>Tuto nabídku lze vyvolat kliknutím na pravé tlačítko myši v libovolném místě aplikace nebo kliknutím pravého tlačítka myši na Ikonu Programu v liště aplikací a kliknutím na volbu HISTORIE nebo jednoduše kliknutím na tlačítko HISTORIE PROVOZU v hlavním okně aplikace</value>
+  </data>
+  <metadata name="ColorDialog1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.Locked" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
+  </metadata>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAAAAABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAA
+        AAAAAAAA////APz7/ADizPMA+/z7APLn+gDt4fcA7+T2AP7+/gD//v4A7N30AHoS3QB6E9wAexPcAPDl
+        +AB7FNsAiTHdAOzg9AD8+vwA///+APr4/ACZSeAAijLfAJ9S4AD//v0AfBTcAHoS3AB8FdsAexLcAHoT
+        2wB/HtsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAwNDQ0NDQ0NDQ0NDQ0NCAEIBQ4HBhEKCgoKCgoWDQ0BAQ0NAQEcDQ0BAQ0IARcNEwEN
+        DQEBDQ0NFQENGQEJDRABDQ0YAQ0NDQ0BDQ0BAQ0NARoNHgENDQQNAwsNCAgNDQECDQ0JDQ0BDQ0UDQ0N
+        DRIdGg0NDAwdHQ8NDw8PDw8bDQ0NDQ0NDQ0NDQ0NDQ0NDQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAD//wAA//8AAP//AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAD//wAA//8AAP//AAA=
+</value>
+  </data>
+</root>

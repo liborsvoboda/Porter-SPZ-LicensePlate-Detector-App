@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Arriving_Vehicles_DataSet" targetNamespace="http://tempuri.org/Arriving_Vehicles_DataSet.xsd" xmlns:mstns="http://tempuri.org/Arriving_Vehicles_DataSet.xsd" xmlns="http://tempuri.org/Arriving_Vehicles_DataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="MySettings" AppSettingsPropertyName="sql_connection" IsAppSettingsProperty="true" Modifier="Assembly" Name="sql_connection (MySettings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.BRANA_EV.My.MySettings.GlobalReference.Default.sql_connection" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="Arriving_VehiclesTableAdapter" GeneratorDataComponentClassName="Arriving_VehiclesTableAdapter" Name="Arriving_Vehicles" UserDataComponentName="Arriving_VehiclesTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="sql_connection (MySettings)" DbObjectName="App_PORTER.dbo.Arriving_Vehicles" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="false" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="true">
+                    <CommandText>SELECT        name, number_plate, movement_date, movement_time, carrier_name, document_nr, destination, id, image, poznamka
+FROM            Arriving_Vehicles
+ORDER BY movement_date, movement_time</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="name" DataSetColumn="name" />
+              <Mapping SourceColumn="number_plate" DataSetColumn="number_plate" />
+              <Mapping SourceColumn="movement_date" DataSetColumn="movement_date" />
+              <Mapping SourceColumn="movement_time" DataSetColumn="movement_time" />
+              <Mapping SourceColumn="document_nr" DataSetColumn="document_nr" />
+              <Mapping SourceColumn="id" DataSetColumn="id" />
+              <Mapping SourceColumn="image" DataSetColumn="image" />
+              <Mapping SourceColumn="poznamka" DataSetColumn="poznamka" />
+              <Mapping SourceColumn="carrier_name" DataSetColumn="carrier_name" />
+              <Mapping SourceColumn="destination" DataSetColumn="destination" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Arriving_Vehicles_DataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="Arriving_Vehicles_DataSet" msprop:Generator_UserDSName="Arriving_Vehicles_DataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Arriving_Vehicles" msprop:Generator_TableClassName="Arriving_VehiclesDataTable" msprop:Generator_TableVarName="tableArriving_Vehicles" msprop:Generator_RowChangedName="Arriving_VehiclesRowChanged" msprop:Generator_TablePropName="Arriving_Vehicles" msprop:Generator_RowDeletingName="Arriving_VehiclesRowDeleting" msprop:Generator_RowChangingName="Arriving_VehiclesRowChanging" msprop:Generator_RowEvHandlerName="Arriving_VehiclesRowChangeEventHandler" msprop:Generator_RowDeletedName="Arriving_VehiclesRowDeleted" msprop:Generator_RowClassName="Arriving_VehiclesRow" msprop:Generator_UserTableName="Arriving_Vehicles" msprop:Generator_RowEvArgName="Arriving_VehiclesRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" msprop:Generator_ColumnVarNameInTable="columnname" msprop:Generator_ColumnPropNameInRow="name" msprop:Generator_ColumnPropNameInTable="nameColumn" msprop:Generator_UserColumnName="name">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="150" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="number_plate" msprop:Generator_ColumnVarNameInTable="columnnumber_plate" msprop:Generator_ColumnPropNameInRow="number_plate" msprop:Generator_ColumnPropNameInTable="number_plateColumn" msprop:Generator_UserColumnName="number_plate">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="20" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="movement_date" msprop:Generator_ColumnVarNameInTable="columnmovement_date" msprop:Generator_ColumnPropNameInRow="movement_date" msprop:Generator_ColumnPropNameInTable="movement_dateColumn" msprop:Generator_UserColumnName="movement_date" type="xs:dateTime" />
+              <xs:element name="movement_time" msprop:Generator_ColumnVarNameInTable="columnmovement_time" msprop:Generator_ColumnPropNameInRow="movement_time" msprop:Generator_ColumnPropNameInTable="movement_timeColumn" msprop:Generator_UserColumnName="movement_time" type="xs:duration" />
+              <xs:element name="document_nr" msprop:Generator_ColumnVarNameInTable="columndocument_nr" msprop:Generator_ColumnPropNameInRow="document_nr" msprop:Generator_ColumnPropNameInTable="document_nrColumn" msprop:Generator_UserColumnName="document_nr" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="1024" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="image" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnimage" msprop:Generator_ColumnPropNameInRow="image" msprop:Generator_ColumnPropNameInTable="imageColumn" msprop:Generator_UserColumnName="image" type="xs:base64Binary" minOccurs="0" />
+              <xs:element name="poznamka" msdata:ReadOnly="true" msprop:Generator_ColumnVarNameInTable="columnpoznamka" msprop:Generator_ColumnPropNameInRow="poznamka" msprop:Generator_ColumnPropNameInTable="poznamkaColumn" msprop:Generator_UserColumnName="poznamka" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="5" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="carrier_name" msprop:Generator_ColumnVarNameInTable="columncarrier_name" msprop:Generator_ColumnPropNameInRow="carrier_name" msprop:Generator_ColumnPropNameInTable="carrier_nameColumn" msprop:Generator_UserColumnName="carrier_name" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="destination" msprop:Generator_ColumnVarNameInTable="columndestination" msprop:Generator_ColumnPropNameInRow="destination" msprop:Generator_ColumnPropNameInTable="destinationColumn" msprop:Generator_UserColumnName="destination" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="200" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint11" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Arriving_Vehicles" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>
